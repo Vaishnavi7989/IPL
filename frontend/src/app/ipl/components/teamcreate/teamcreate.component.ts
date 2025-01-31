@@ -25,7 +25,11 @@ export class TeamCreateComponent implements OnInit {
   ngOnInit(): void {
     this.teamForm = this.fb.group({
       teamId: [null, [Validators.required, Validators.minLength(1)]],
+<<<<<<< HEAD
       teamName: ['', [Validators.required, Validators.minLength(2),Validators.pattern(/^[a-zA-Z0-9]+$/)]],
+=======
+      teamName: ['', [Validators.required, Validators.minLength(2)]],
+>>>>>>> 6c06a7618829a555b9f48700ca0d1f617c0ae0e9
       location: ['', Validators.required],
       ownerName: ['', [Validators.required, Validators.minLength(2)]],
       establishmentYear: [null, Validators.required]

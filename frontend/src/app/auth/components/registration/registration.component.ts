@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -36,3 +37,9 @@ export class RegistrationComponent {
     this.registrationForm.reset();
   }
 }
+=======
+
+export class RegistrationComponent  {
+ 
+}
+>>>>>>> 6c06a7618829a555b9f48700ca0d1f617c0ae0e9
