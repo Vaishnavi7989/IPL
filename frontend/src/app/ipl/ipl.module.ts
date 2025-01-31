@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
  
-import { IplRoutingModule } from "./ipl-routing.module";
+// import { IplRoutingModule } from "./ipl-routing.module";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { CricketerCreateComponent } from "./components/cricketercreate/cricketercreate.component";
