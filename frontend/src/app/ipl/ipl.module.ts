@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
 import { IplRoutingModule } from "./ipl-routing.module";
+<<<<<<< HEAD
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { TicketBookingComponent } from "./components/ticketbooking/ticketbooking.component";
@@ -19,10 +20,18 @@ import { TeamCreateComponent } from "./components/teamcreate/teamcreate.componen
     // CricketerCreateComponent,
     // MatchCreateComponent
   ],
+=======
+import { ReactiveFormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
+
+@NgModule({
+  declarations: [],
+>>>>>>> 962ee48949aa724f949bdd38cc910a1e04cf0304
   imports: [
     CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
+<<<<<<< HEAD
     FormsModule
   ],
   exports: [
@@ -30,6 +39,10 @@ import { TeamCreateComponent } from "./components/teamcreate/teamcreate.componen
     MatchCreateComponent,
     CricketerArrayComponent,
     CricketerCreateComponent
+=======
+  ],
+  exports: [
+>>>>>>> 962ee48949aa724f949bdd38cc910a1e04cf0304
     
   ]
 })
